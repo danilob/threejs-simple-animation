@@ -39,10 +39,8 @@ const tick = () => {
     const deltaTime = currentTime - time
     time = currentTime
 
-    console.log(deltaTime)
-
     // update objects
-    mesh.rotation.y += 0.01  
+    mesh.rotation.y += 0.002  * deltaTime
     //render 
     renderer.render(scene, camera)
     window.requestAnimationFrame(tick)
