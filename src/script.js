@@ -34,17 +34,17 @@ renderer.setSize(sizes.width, sizes.height)
 renderer.render(scene, camera)
 
 //Clock
-const clock = new THREE.Clock()
+// const clock = new THREE.Clock()
 
 //Animations
 const tick = () => {
     //Clock
-    const elapsedTime = clock.getElapsedTime()
+    // const elapsedTime = clock.getElapsedTime()
 
     // update objects
-    camera.position.y = Math.sin(elapsedTime)
-    camera.position.x = Math.cos(elapsedTime)
-    camera.lookAt(mesh.position)
+    // camera.position.y = Math.sin(elapsedTime)
+    // camera.position.x = Math.cos(elapsedTime)
+    // camera.lookAt(mesh.position)
 
     //render 
     renderer.render(scene, camera)
