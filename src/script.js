@@ -1,4 +1,7 @@
 import * as THREE from 'three'
+import gsap from 'gsap'
+
+console.log(gsap)
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
